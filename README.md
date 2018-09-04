@@ -1,7 +1,5 @@
 # Course Programming Environment
 
-![Vagrant Up](./.imgs/vagrant_up.gif)
-
 # VirtualBox and Vagrant
 
 The best way to make sure your work will work in the same environment
