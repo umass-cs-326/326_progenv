@@ -81,20 +81,23 @@ If you run the `ls` command you will see the following:
 
 ```bash
 $ ls -lR
-total 16
--rw-r--r--  1 vagrant  vagrant  3613 Aug 24 16:59 README.md
--rw-r--r--  1 vagrant  vagrant   494 Aug 24 16:38 Vagrantfile
-drwxr-xr-x  9 vagrant  vagrant   288 Aug 24 16:30 docs
+.:
+total 12
+drwxr-xr-x 1 vagrant vagrant  352 Sep  4 14:05 docs
+-rw-r--r-- 1 vagrant vagrant 5573 Sep  4 14:27 README.md
+-rw-r--r-- 1 vagrant vagrant  414 Sep  4 14:05 Vagrantfile
 
 ./docs:
-total 5336
--rw-r--r--@ 1 vagrant  vagrant   107375 Aug 24 16:29 bash-cheat.pdf
--rw-r--r--@ 1 vagrant  vagrant    53568 Aug 24 16:29 curl-cheat.pdf
--rw-r--r--@ 1 vagrant  vagrant   112637 Aug 24 16:29 emacs-cheat.pdf
--rw-r--r--@ 1 vagrant  vagrant   377767 Aug 24 16:29 git-cheat.pdf
--rw-r--r--@ 1 vagrant  vagrant  1785862 Aug 24 16:29 python-cheat.pdf
--rw-r--r--@ 1 vagrant  vagrant    44436 Aug 24 16:29 vagrant-cheat.pdf
--rw-r--r--@ 1 vagrant  vagrant   230787 Aug 24 16:29 vim-cheat.pdf
+total 2924
+-rw-r--r-- 1 vagrant vagrant  107375 Sep  4 14:05 bash-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant   53568 Sep  4 14:05 curl-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant  112637 Sep  4 14:05 emacs-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant  377767 Sep  4 14:05 git-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant  225752 Sep  4 14:05 html-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant   30036 Sep  4 14:05 http-status-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant 1785862 Sep  4 14:05 python-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant   44436 Sep  4 14:05 vagrant-cheat.pdf
+-rw-r--r-- 1 vagrant vagrant  230787 Sep  4 14:05 vim-cheat.pdf
 ```
 
 To test things out, run the following command from inside the
